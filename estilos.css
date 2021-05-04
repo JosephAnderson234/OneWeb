@@ -1,0 +1,29 @@
+.titulos {
+    background: yellow;
+    color: rgb(36, 12, 5);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /*tambien se puede usar lighter, yambien se puede usar "font: bold 30px sans-serif"*/
+}
+header, section, footer, aside, nav, article, hgroup{
+    /*border: 1px solid black;*/
+    /*para los bordes*/
+    display: block;
+    /*para que todo est en bloque*/
+}
+h2{
+    text-align: center;
+}
+.grupo_de_articulo{
+    background: rgb(204, 199, 199);
+    /*para margenes de arriba usa margin-top, para márgenes de la izquierda
+    usa margin left y para la derecha usa margin right y por ultimos para margindesde abajo usa margin-top*/
+    /* usa padding para márgenes de adentro*/
+}
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 11px verdana;
+    display: inline-block;
+}
